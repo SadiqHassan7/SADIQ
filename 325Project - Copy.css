@@ -1,0 +1,38 @@
+
+    html {
+height:100%;
+background-color: #f8f8ff;
+max-width: auto;
+margin: auto;
+}
+
+body {
+background-color: #FFF;
+}
+
+
+
+
+
+
+
+/* Float the list items side by side */
+
+
+/* Style the links inside the list items */
+
+
+.content {
+  padding: 16px;
+}
+
+
+
+
+.footer {
+   display: block;
+   background-color: steelblue;
+   color: white;
+   text-align: center;
+}
+    

@@ -1,0 +1,71 @@
+   <style>
+    html {
+height:100%;
+background-color: #f8f8ff;
+max-width: auto;
+margin: auto;
+}
+
+body {
+background-color: #FFF;
+}
+
+.topnav-logo{
+float:left;
+background-color: #f8f8ff;
+margin: 0;
+padding: 0;
+height: 70px;
+}
+
+.topnav{
+background-color: steelblue;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+ul.topnav {
+list-style-type: none;
+overflow: hidden;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+float: left;
+line-height: 72px;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+display: inline-block;
+color: white;
+padding-left: 160px;
+text-decoration: none;
+transition: 0.3s;
+font-size: 20px;
+}
+ul.topnav li a:hover {
+    color: rgb(61, 52, 52);
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.footer {
+   display: block;
+   background-color: steelblue;
+   color: white;
+   text-align: center;
+}
+    </style>

@@ -1,0 +1,57 @@
+html {
+	background: #6093ac;
+	background-image:url(dhis.jpg);
+    background-size:cover;
+	text-align:center;
+	
+}
+
+ul li{
+	
+	background:red;
+	width:130px;
+	height:30px;
+	line-height:30px;
+	border: 1px solid white;
+	list-style-type:none;
+	
+}
+
+
+
+
+ul li a {
+	display:block;
+	color: white;
+	text-decoration: none;
+	list-style-type:none;
+}
+
+ul li a:hover {
+	background: black;
+	
+}
+ul li ul li{
+	display:none;
+	
+}
+
+
+ul li:hover ul li{
+	display:block;
+	
+	
+	
+}
+header{
+ position:relative;
+	
+}
+
+ul{
+ position:absolute; 
+  top:0px;right:0px;
+}
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="325Project.css"></head>
+		<meta charset="utf-8">
+</head>
+<header>
+    
+    <ul class="topnav" id="Topnav">
+        <!--<a class="topnav-logo" href="MetroHomePage.html"><img src="MetroLogo.png" alt="site-logo"></a>-->
+		
+                <li><a href="Facilities.html">Facilities</a></li>
+				<li style="float:right"><a  href="logout.php">Log out</a></li>
+				
+                
+    </ul>
+</header>
+<body>
+  <div class="container">
+  <img src="About.png" alt="About Us" height=75% width=75%></a>
+</div>
+
+<div class="footer">
+  <div class="row">
+    <div class="column" align="center">
+      <p>St. Paul</p>
+      <p>Address: 1701 Metro Ave.</p>
+      <p>Phone # 651-251-6512</p>
+    </div>
+    <div class="column" align="center">
+      <p>Affordable, Quality, Metro.</p>
+    </div>
+    <div class="column" align="center" >
+      <p></p>
+      //<a href="SignInEmp.html">Employee Login</a>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("Topnav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</html>
